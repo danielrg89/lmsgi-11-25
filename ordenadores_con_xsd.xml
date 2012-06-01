@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no' ?>
+
+<ordenadores
+xmlns='http://www.iescierva.net'
+xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+xsi:schemaLocation='http://www.iescierva.net xsd/ordenadores.xsd'>
+
+
+	<ordenador tipo_de_ordenador='hp' memoria='4Gb' velocidad='2.2Ghz' n_nucleos='4'>				
+				<hardware>
+					<procesador>Intel Core i5-2537M</procesador>
+					<monitor>samsung-22p350</monitor>
+					<teclado>inhalambrico</teclado>
+					<tarjeta_red>TP-Link TF-3239DL</tarjeta_red>
+					<tarjeta_grafica>nvidia_GeForce GTX 590</tarjeta_grafica>
+				</hardware>	
+				<software>
+					<bios></bios>
+					<sisoperativo>ubuntu 11.04</sisoperativo>
+				</software>					
+	</ordenador>
+</ordenadores>	

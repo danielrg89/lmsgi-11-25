@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<!ELEMENT ordenadores (ordenador*)>
+
+<!ELEMENT ordenador (sobremesa*,portatil*)>
+
+<!ELEMENT sobremesa (hardware*, software*)>
+
+<!ELEMENT hardware (procesador*, monitor*, teclado*, tarjeta_red*, tarjeta_grafica*)>
+
+<!ELEMENT procesador (#PCDATA)>
+<!ELEMENT monitor (#PCDATA)>
+<!ELEMENT teclado (#PCDATA)>
+<!ELEMENT tarjeta_red (#PCDATA)>
+<!ELEMENT tarjeta_grafica (#PCDATA)>
+
+<!ELEMENT software ( bios*, sisoperativo*)> 
+<!ELEMENT bios (#PCDATA)>
+<!ELEMENT sisoperativo (#PCDATA)>
+
+<!ATTLIST sobremesa
+	marca CDATA #REQUIRED
+	memoria CDATA #REQUIRED
+	velocidad CDATA #REQUIRED
+	n_nucleos CDATA #REQUIRED
+>
+
+<!ELEMENT portatil (hardware*, software*)>
+
+
+
+<!ATTLIST portatil
+	marca CDATA #REQUIRED 
+	memoria CDATA #REQUIRED
+	velocidad CDATA #REQUIRED
+	n_nucleos CDATA #REQUIRED	
+>
+
